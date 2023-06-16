@@ -1,7 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: [ 'build', '-t', 'us-central1-docker.pkg.dev/qwiklabs-gcp-02-0f04952c2fc0/quickstart-docker-repo/quickstart-image:tag1', '.' ]
-images:
-- 'us-central1-docker.pkg.dev/qwiklabs-gcp-02-0f04952c2fc0/quickstart-docker-repo/quickstart-image:tag1'
 options:
   logging: CLOUD_LOGGING_ONLY
