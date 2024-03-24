@@ -14,5 +14,5 @@
 # limitations under the License.
 
 # [START cloudbuild_quickstart_build_sh]
-echo "Hello, world! The time is $(date). Please work!"
+echo "Hello, world! The time is $(date). Please work! Please work now!!!!"
 # [END cloudbuild_quickstart_build_sh]
